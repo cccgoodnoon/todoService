@@ -13,10 +13,10 @@ from sqlalchemy.ext.declarative import declarative_base
 
 #  sqlacodegen --tables taskthree "postgresql://postgres:postgres@202.120.167.50:5432/postgres" >tmp.py
 
-host = '202.120.167.50'
+host = '*****'
 port = '5432'
 username = 'postgres'
-password = 'tongji2018openedu'
+password = '******'
 database = 'postgres'
 dd = 'postgresql://{}:{}@{}:{}/{}'.format(username, password, host, port, database)
 # ?charset=utf8'
